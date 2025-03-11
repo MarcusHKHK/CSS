@@ -1,0 +1,17 @@
+/*Üldine */
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    max-width: 1260;
+    margin: auto;
+}
+/* BANNER */
+
+/*SISU */
+
+/*FOOTER */
