@@ -7,11 +7,55 @@
 }
 
 .container{
-    max-width: 1260;
+    max-width: 1260px;
     margin: auto;
 }
 /* BANNER */
+.header{
+    display: flex;
+}
 
+.logo{
+    color: #fff;
+    background-color: #ff3600;
+    font-size: 20px;
+    padding: 25px 50px;
+}
+.menu{
+    background-color: #333;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+}
+.menu li{
+    line-height: 80px;
+    margin-left: 40px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+.active{
+    color: #ff3600 !important;
+}
 /*SISU */
+.content{
+    display: flex;
+}
+
 
 /*FOOTER */
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+}
+.footer a{
+    color: #ff3600;
+    text-decoration: none;
+    margin: 10px;
+}
